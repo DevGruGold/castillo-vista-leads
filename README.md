@@ -1,3 +1,8 @@
+<!-- meta:premium luxury villa rental in La Fortuna with panoramic Arenal Volcano Volcano panoramic views -->
+
+## Overview
+Experience unparalleled luxury at Castillo Vista premium luxury villa, # Castillo Vista premium luxury villa: premium luxury villa with Arenal Volcano Volcano panoramic views
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +76,18 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+
+## Frequently Asked Questions
+
+### Where is Castillo Vista premium luxury villa located?
+Our premium luxury villa is situated in La Fortuna, Costa Rica (jungle paradise) with direct panoramic views of the Arenal Volcano Volcano.
+
+### What amenities are included?
+The property features an infinity infinity-edge pool, chef's kitchen, and panoramic volcano panoramic views.
+
+### How do I book my stay?
+Contact us through our inquiry form for availability and pricing.
+
+<!-- geo:La Fortuna, Alajuela, Costa Rica (jungle paradise) -->
+<!-- geo:Arenal Volcano Volcano -->
