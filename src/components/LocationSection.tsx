@@ -1,3 +1,4 @@
+
 const LocationSection = () => {
   const attractions = [
     {
@@ -43,20 +44,6 @@ const LocationSection = () => {
             El Castillo is a tranquil village known for its authentic Costa Rican charm and magnificent views, 
             offering a peaceful alternative to nearby La Fortuna while providing easy access to world-class attractions.
           </p>
-        </div>
-
-        {/* Map Section */}
-        <div className="mb-8 md:mb-16">
-          <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-8 shadow-xl">
-            <h3 className="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6 text-gray-800">Strategic Location</h3>
-            <div className="aspect-video bg-gray-200 rounded-lg md:rounded-xl flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-4xl md:text-6xl mb-2 md:mb-4">🗺️</div>
-                <p className="text-sm md:text-base text-gray-600">Interactive map showing El Castillo's prime location</p>
-                <p className="text-xs md:text-sm text-gray-500 mt-1 md:mt-2">Near Arenal Volcano, Lake Arenal, and La Fortuna</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Attractions Grid */}
