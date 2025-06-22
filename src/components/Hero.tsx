@@ -22,28 +22,28 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+      <div className="relative z-10 text-center text-white px-3 md:px-4 max-w-4xl mx-auto">
+        <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-3 md:mb-6 leading-tight">
           Own a <span className="text-emerald-400">Turnkey Airbnb</span> Business in Costa Rican Paradise
         </h1>
-        <p className="text-xl md:text-2xl mb-4 text-gray-200">
+        <p className="text-lg md:text-xl lg:text-2xl mb-2 md:mb-4 text-gray-200">
           A 4-unit rental property with spectacular volcano views
         </p>
-        <p className="text-3xl md:text-4xl font-bold mb-8 text-emerald-400">
+        <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-8 text-emerald-400">
           Asking Price: $499,000 USD
         </p>
         <Button 
           onClick={handleWhatsAppClick}
-          className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-2xl"
+          className="bg-green-500 hover:bg-green-600 text-white px-6 md:px-8 py-3 md:py-4 text-base md:text-lg rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-2xl"
         >
           💬 Inquire on WhatsApp
         </Button>
       </div>
       
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+      <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="w-5 h-8 md:w-6 md:h-10 border-2 border-white rounded-full flex justify-center">
+          <div className="w-1 h-2 md:h-3 bg-white rounded-full mt-1 md:mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>

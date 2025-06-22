@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 const PropertyGallery = () => {
@@ -43,31 +42,31 @@ const PropertyGallery = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+    <section className="py-12 md:py-20 bg-white">
+      <div className="container mx-auto px-3 md:px-4">
+        <div className="text-center mb-8 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2 md:mb-4">
             The Property
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
             Explore this exceptional 4-unit property featuring breathtaking views, 
             modern amenities, and a prime location in El Castillo
           </p>
         </div>
 
         {/* Main Image */}
-        <div className="mb-8">
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+        <div className="mb-4 md:mb-8">
+          <div className="relative overflow-hidden rounded-xl md:rounded-2xl shadow-2xl">
             <img 
               src={images[selectedImage].src}
               alt={images[selectedImage].title}
-              className="w-full h-96 md:h-[600px] object-cover"
+              className="w-full h-64 md:h-96 lg:h-[600px] object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-8">
-              <h3 className="text-2xl font-bold text-white mb-2">
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 md:p-8">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-1 md:mb-2">
                 {images[selectedImage].title}
               </h3>
-              <p className="text-gray-200">
+              <p className="text-sm md:text-base text-gray-200">
                 {images[selectedImage].description}
               </p>
             </div>
@@ -75,76 +74,76 @@ const PropertyGallery = () => {
         </div>
 
         {/* Thumbnail Gallery */}
-        <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+        <div className="grid grid-cols-4 md:grid-cols-7 gap-2 md:gap-4 mb-8 md:mb-16">
           {images.map((image, index) => (
             <button
               key={index}
               onClick={() => setSelectedImage(index)}
-              className={`relative overflow-hidden rounded-lg transition-all duration-300 ${
+              className={`relative overflow-hidden rounded-md md:rounded-lg transition-all duration-300 ${
                 selectedImage === index 
-                  ? 'ring-4 ring-emerald-500 scale-105' 
+                  ? 'ring-2 md:ring-4 ring-emerald-500 scale-105' 
                   : 'hover:scale-105 opacity-70 hover:opacity-100'
               }`}
             >
               <img 
                 src={image.src}
                 alt={image.title}
-                className="w-full h-20 md:h-24 object-cover"
+                className="w-full h-16 md:h-20 lg:h-24 object-cover"
               />
             </button>
           ))}
         </div>
 
         {/* Property Details */}
-        <div className="mt-16 bg-gray-50 rounded-2xl p-8 md:p-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="bg-gray-50 rounded-xl md:rounded-2xl p-4 md:p-8 lg:p-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div>
-              <h3 className="text-3xl font-bold text-gray-800 mb-6">Property Details</h3>
-              <div className="space-y-4">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6">Property Details</h3>
+              <div className="space-y-3 md:space-y-4">
                 <div className="flex justify-between border-b border-gray-200 pb-2">
-                  <span className="font-semibold text-gray-700">Price:</span>
-                  <span className="text-emerald-600 font-bold">$499,000 USD</span>
+                  <span className="font-semibold text-gray-700 text-sm md:text-base">Price:</span>
+                  <span className="text-emerald-600 font-bold text-sm md:text-base">$499,000 USD</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 pb-2">
-                  <span className="font-semibold text-gray-700">Units:</span>
-                  <span>4 Independent Rental Suites</span>
+                  <span className="font-semibold text-gray-700 text-sm md:text-base">Units:</span>
+                  <span className="text-sm md:text-base">4 Independent Rental Suites</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 pb-2">
-                  <span className="font-semibold text-gray-700">Property Type:</span>
-                  <span>Commercial Rental Investment</span>
+                  <span className="font-semibold text-gray-700 text-sm md:text-base">Property Type:</span>
+                  <span className="text-sm md:text-base">Commercial Rental Investment</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 pb-2">
-                  <span className="font-semibold text-gray-700">Status:</span>
-                  <span className="text-green-600 font-semibold">Turnkey Operation</span>
+                  <span className="font-semibold text-gray-700 text-sm md:text-base">Status:</span>
+                  <span className="text-green-600 font-semibold text-sm md:text-base">Turnkey Operation</span>
                 </div>
               </div>
             </div>
             
             <div>
-              <h3 className="text-3xl font-bold text-gray-800 mb-6">Key Features</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6">Key Features</h3>
+              <ul className="space-y-2 md:space-y-3">
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Spectacular Arenal Volcano views
                 </li>
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Lake Arenal waterfront access
                 </li>
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Established Airbnb business
                 </li>
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Tropical landscaped gardens
                 </li>
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Modern amenities in all units
                 </li>
-                <li className="flex items-center">
-                  <span className="text-emerald-500 mr-3">✓</span>
+                <li className="flex items-center text-sm md:text-base">
+                  <span className="text-emerald-500 mr-2 md:mr-3">✓</span>
                   Prime El Castillo location
                 </li>
               </ul>
