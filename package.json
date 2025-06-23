@@ -1,5 +1,5 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "castillo-vista-leads",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -79,5 +79,19 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
+  },
+  "description": "Lead generation and property showcase website for Castillo Vista luxury real estate development in Costa Rica",
+  "author": "Epic Adventures Costa Rica",
+  "keywords": [
+    "real estate",
+    "costa rica",
+    "luxury homes",
+    "castillo vista",
+    "property development",
+    "ocean view homes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevGruGold/castillo-vista-leads.git"
   }
 }
