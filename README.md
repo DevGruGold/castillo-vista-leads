@@ -1,5 +1,9 @@
-# 🏠 Casa Castillo — Luxury Villa with Arenal Volcano Views
+# 🏠 Casa Castillo — Luxury Villa with Sunset and lake views
 
+        
+**Strategic Location Advantage:** This exceptional property is strategically positioned on what will soon become the new direct route to Monteverde Cloud Forest and the Pacific beaches. Once the planned bridge construction is completed, guests and residents will enjoy unprecedented access to Costa Rica's most sought-after destinations without the current need to circle Lake Arenal. This upcoming infrastructure development positions this property as a prime investment opportunity in Costa Rica's evolving tourism landscape.
+        
+        
 Welcome to **Casa Castillo**, an exclusive vacation rental in La Fortuna, Costa Rica. Enjoy panoramic views of the iconic Arenal Volcano from every room, a stunning infinity pool, and world-class amenities for an unforgettable stay.
 
 ## ✨ Why Choose Casa Castillo?
@@ -20,7 +24,7 @@ Welcome to **Casa Castillo**, an exclusive vacation rental in La Fortuna, Costa 
 ## 📸 Gallery
 
 ![Infinity Pool](https://yourdomain.com/pool.jpg)
-![Volcano View](https://yourdomain.com/volcano.jpg)
+![sunset and lake views](https://yourdomain.com/volcano.jpg)
 
 ## 💬 Reviews
 
@@ -30,7 +34,7 @@ Welcome to **Casa Castillo**, an exclusive vacation rental in La Fortuna, Costa 
 ## 📖 Booking & Contact
 
 - [Book Now](https://casacastillo.vercel.app)
-- Email: reservations@castillovista.com
+- Email: toptourscostarica@gmail.com
 - WhatsApp: +506-1234-5678
 
 ---
