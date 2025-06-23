@@ -1,93 +1,45 @@
-<!-- meta:premium luxury villa rental in La Fortuna with panoramic Arenal Volcano Volcano panoramic views -->
+# 🏠 Casa Castillo — Luxury Villa with Arenal Volcano Views
 
-## Overview
-Experience unparalleled luxury at Castillo Vista premium luxury villa, # Castillo Vista premium luxury villa: premium luxury villa with Arenal Volcano Volcano panoramic views
+Welcome to **Casa Castillo**, an exclusive vacation rental in La Fortuna, Costa Rica. Enjoy panoramic views of the iconic Arenal Volcano from every room, a stunning infinity pool, and world-class amenities for an unforgettable stay.
 
-# Welcome to your Lovable project
+## ✨ Why Choose Casa Castillo?
 
-## Project info
+- **Unmatched Location:** Steps from Arenal Volcano National Park, hot springs, waterfalls, and adventure tours.
+- **Modern Luxury:** Spacious suites, chef’s kitchen, open-concept living, fast WiFi, smart TV.
+- **Infinity Pool:** Swim with the volcano as your backdrop!
+- **Outdoor Paradise:** Lush gardens, wildlife-watching, covered deck for al fresco dining.
+- **Perfect for Families & Groups:** Sleeps up to 12, kid-friendly, concierge services available.
 
-**URL**: https://lovable.dev/projects/ce4aac79-2fa8-4aa6-97da-522ec1baaeae
+## 📍 Location
 
-## How can I edit this code?
+- La Fortuna, Alajuela, Costa Rica
+- 3 minutes to Tabacon Hot Springs
+- 10 minutes to La Fortuna Waterfall
+- Close to ziplining, rafting, hiking, and more!
 
-There are several ways of editing your application.
+## 📸 Gallery
 
-**Use Lovable**
+![Infinity Pool](https://yourdomain.com/pool.jpg)
+![Volcano View](https://yourdomain.com/volcano.jpg)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ce4aac79-2fa8-4aa6-97da-522ec1baaeae) and start prompting.
+## 💬 Reviews
 
-Changes made via Lovable will be committed automatically to this repo.
+> “The view of the volcano from the pool is simply breathtaking. Five stars!”  
+> “Perfect location for exploring Arenal and relaxing in style.”
 
-**Use your preferred IDE**
+## 📖 Booking & Contact
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [Book Now](https://casacastillo.vercel.app)
+- Email: reservations@castillovista.com
+- WhatsApp: +506-1234-5678
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🔎 SEO Keywords
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Luxury villa Costa Rica, Arenal Volcano, La Fortuna vacation rental, Infinity pool villa, Family-friendly accommodation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ce4aac79-2fa8-4aa6-97da-522ec1baaeae) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-
-
-## Frequently Asked Questions
-
-### Where is Castillo Vista premium luxury villa located?
-Our premium luxury villa is situated in La Fortuna, Costa Rica (jungle paradise) with direct panoramic views of the Arenal Volcano Volcano.
-
-### What amenities are included?
-The property features an infinity infinity-edge pool, chef's kitchen, and panoramic volcano panoramic views.
-
-### How do I book my stay?
-Contact us through our inquiry form for availability and pricing.
-
-<!-- geo:La Fortuna, Alajuela, Costa Rica (jungle paradise) -->
-<!-- geo:Arenal Volcano Volcano -->
+**Last updated:** June 2025  
+*Casa Castillo — Experience the best of Arenal in luxury and style!*
