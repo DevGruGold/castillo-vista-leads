@@ -4,7 +4,7 @@ import ROICalculator from "./ROICalculator";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+50612345678"; // Replace with Michael's actual number
+    const phoneNumber = "+50687090777";
     const message = "Hello Michael, I'm inquiring about the 4-unit property in El Castillo for $499,000.";
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

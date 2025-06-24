@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const InvestmentOpportunity = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+50612345678"; // Replace with Michael's actual number
+    const phoneNumber = "+50687090777";
     const message = "Hello Michael, I'd like to learn more about the ROI potential for the El Castillo property.";
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

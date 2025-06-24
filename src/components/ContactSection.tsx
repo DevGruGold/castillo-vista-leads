@@ -14,7 +14,7 @@ const ContactSection = () => {
   const { toast } = useToast();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+50612345678"; // Replace with Michael's actual number
+    const phoneNumber = "+50687090777";
     const message = "Hello Michael, I'm inquiring about the 4-unit property in El Castillo for $499,000.";
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -141,8 +141,8 @@ const ContactSection = () => {
             <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Michael Copeland</h3>
             <p className="text-sm md:text-base text-emerald-100 mb-2 md:mb-4">Property Owner & Investment Specialist</p>
             <div className="space-y-1 md:space-y-2">
-              <p className="text-sm md:text-base text-emerald-100">📱 WhatsApp: +506 1234-5678</p>
-              <p className="text-sm md:text-base text-emerald-100">📧 Email: michael@example.com</p>
+              <p className="text-sm md:text-base text-emerald-100">📱 WhatsApp: +506 8709-0777</p>
+              <p className="text-sm md:text-base text-emerald-100">📧 Email: xmrtsolutions@gmail.com</p>
               <p className="text-sm md:text-base text-emerald-100">📍 El Castillo, Costa Rica</p>
             </div>
           </div>
