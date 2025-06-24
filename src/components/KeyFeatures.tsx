@@ -7,9 +7,9 @@ const KeyFeatures = () => {
       description: "Fully established rental operation with proven income potential"
     },
     {
-      icon: "🌋",
-      title: "Spectacular Volcano & Lake Views",
-      description: "Breathtaking views of Arenal Volcano and Lake Arenal"
+      icon: "🌅",
+      title: "Spectacular Sunset & Lakeview",
+      description: "Breathtaking views of stunning sunsets over Lake Arenal"
     },
     {
       icon: "🔑",
@@ -17,9 +17,9 @@ const KeyFeatures = () => {
       description: "Ready-to-run business with all systems in place"
     },
     {
-      icon: "📈",
-      title: "High Tourist Demand Area",
-      description: "Located in one of Costa Rica's most popular destinations"
+      icon: "🌉",
+      title: "Strategic Future Location",
+      description: "New bridge will create faster route to Monteverde & beaches, increasing tourist traffic"
     }
   ];
 

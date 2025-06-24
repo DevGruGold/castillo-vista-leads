@@ -44,9 +44,9 @@ const InvestmentOpportunity = () => {
                   <span className="text-white font-bold text-xs md:text-sm">2</span>
                 </div>
                 <div>
-                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Growing Tourism Market</h4>
+                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Infrastructure Boom Coming</h4>
                   <p className="text-sm md:text-base text-gray-300">
-                    Costa Rica sees over 3 million visitors annually, with Arenal being a top destination
+                    New bridge will make El Castillo a key transit hub, dramatically increasing tourist traffic and property values
                   </p>
                 </div>
               </div>
@@ -68,9 +68,9 @@ const InvestmentOpportunity = () => {
                   <span className="text-white font-bold text-xs md:text-sm">4</span>
                 </div>
                 <div>
-                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Favorable Investment Climate</h4>
+                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Perfect Timing</h4>
                   <p className="text-sm md:text-base text-gray-300">
-                    Costa Rica offers reasonable property taxes and a stable, tourism-friendly economy
+                    Get in before the bridge opens and property values surge with increased accessibility
                   </p>
                 </div>
               </div>
@@ -92,8 +92,8 @@ const InvestmentOpportunity = () => {
               </div>
 
               <div className="border-t border-emerald-300 pt-4 md:pt-6">
-                <div className="text-2xl md:text-3xl font-bold text-white mb-1 md:mb-2">365 Days</div>
-                <div className="text-sm md:text-base text-emerald-100">Year-Round Tourist Season</div>
+                <div className="text-2xl md:text-3xl font-bold text-white mb-1 md:mb-2">🌉 Bridge</div>
+                <div className="text-sm md:text-base text-emerald-100">Future Value Multiplier</div>
               </div>
 
               <div className="border-t border-emerald-300 pt-4 md:pt-6">
@@ -114,15 +114,15 @@ const InvestmentOpportunity = () => {
             <div className="text-3xl md:text-5xl mb-2 md:mb-4">🏆</div>
             <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Premium Location</h4>
             <p className="text-sm md:text-base text-gray-300">
-              Prime positioning with unmatched volcano and lake views that command top rental rates
+              Prime positioning with unmatched sunset and lakeviews that command top rental rates
             </p>
           </div>
           
           <div className="text-center">
             <div className="text-3xl md:text-5xl mb-2 md:mb-4">📈</div>
-            <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Scalable Business</h4>
+            <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Explosive Growth Potential</h4>
             <p className="text-sm md:text-base text-gray-300">
-              Opportunity to expand or optimize operations for even greater returns
+              Bridge construction will transform this area into a major tourist corridor
             </p>
           </div>
           

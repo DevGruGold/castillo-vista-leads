@@ -28,7 +28,7 @@ const Hero = () => {
           Own a <span className="text-emerald-400">Turnkey Airbnb</span> Business in Costa Rican Paradise
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-2 md:mb-4 text-gray-200">
-          A 4-unit rental property with spectacular volcano views
+          A 4-unit rental property with spectacular sunset and lakeview
         </p>
         <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-emerald-400">
           Asking Price: $499,000 USD
