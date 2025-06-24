@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const InvestmentOpportunity = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = "+50687090777";
-    const message = "Hello Michael, I'd like to learn more about the ROI potential for the El Castillo property.";
+    const message = "Hello Michael, I'd like to learn more about the potential for the El Castillo property.";
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -17,8 +17,9 @@ const InvestmentOpportunity = () => {
             A Smart Investment in <span className="text-emerald-400">Paradise</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-2">
-            Costa Rica's vacation rental market is booming, and this turnkey operation 
-            positions you perfectly to capitalize on the growing tourism industry.
+            Costa Rica's tourism market is booming, and this versatile property 
+            positions you perfectly to capitalize on growing opportunities - whether for vacation rentals, 
+            private residence, or commercial ventures.
           </p>
         </div>
 
@@ -32,9 +33,9 @@ const InvestmentOpportunity = () => {
                   <span className="text-white font-bold text-xs md:text-sm">1</span>
                 </div>
                 <div>
-                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Established Revenue Stream</h4>
+                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Flexible Income Potential</h4>
                   <p className="text-sm md:text-base text-gray-300">
-                    4 profitable Airbnb units already generating income with proven booking history
+                    4 units ready for vacation rental operation, or convert to private residence, restaurant, or any business venture
                   </p>
                 </div>
               </div>
@@ -56,9 +57,9 @@ const InvestmentOpportunity = () => {
                   <span className="text-white font-bold text-xs md:text-sm">3</span>
                 </div>
                 <div>
-                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Turnkey Operation</h4>
+                  <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Ready for Any Vision</h4>
                   <p className="text-sm md:text-base text-gray-300">
-                    No startup costs or learning curve - walk into a running business with systems in place
+                    Blank slate property prepared for vacation rentals, private home, restaurant, or any business concept
                   </p>
                 </div>
               </div>
@@ -77,7 +78,7 @@ const InvestmentOpportunity = () => {
             </div>
           </div>
 
-          {/* ROI Highlight Box */}
+          {/* Investment Highlight Box */}
           <div className="bg-emerald-600 rounded-xl md:rounded-2xl p-4 md:p-8 text-center">
             <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Investment Highlights</h3>
             <div className="space-y-4 md:space-y-6">
@@ -88,7 +89,7 @@ const InvestmentOpportunity = () => {
               
               <div className="border-t border-emerald-300 pt-4 md:pt-6">
                 <div className="text-2xl md:text-3xl font-bold text-white mb-1 md:mb-2">4 Units</div>
-                <div className="text-sm md:text-base text-emerald-100">Immediate Income Potential</div>
+                <div className="text-sm md:text-base text-emerald-100">Flexible Use Potential</div>
               </div>
 
               <div className="border-t border-emerald-300 pt-4 md:pt-6">
@@ -101,7 +102,7 @@ const InvestmentOpportunity = () => {
                   onClick={handleWhatsAppClick}
                   className="bg-white text-emerald-600 hover:bg-gray-100 font-bold py-2 md:py-3 px-4 md:px-8 rounded-full w-full transition-all duration-300 transform hover:scale-105 text-sm md:text-base"
                 >
-                  💬 Discuss ROI Details
+                  💬 Discuss Potential
                 </Button>
               </div>
             </div>
@@ -114,7 +115,7 @@ const InvestmentOpportunity = () => {
             <div className="text-3xl md:text-5xl mb-2 md:mb-4">🏆</div>
             <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Premium Location</h4>
             <p className="text-sm md:text-base text-gray-300">
-              Prime positioning with unmatched sunset and lakeviews that command top rental rates
+              Prime positioning with unmatched sunset and lakeviews perfect for any residential or commercial venture
             </p>
           </div>
           
@@ -130,7 +131,7 @@ const InvestmentOpportunity = () => {
             <div className="text-3xl md:text-5xl mb-2 md:mb-4">🌴</div>
             <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Lifestyle Investment</h4>
             <p className="text-sm md:text-base text-gray-300">
-              Own a piece of paradise while building wealth through smart real estate investment
+              Own a piece of paradise with the flexibility to create your dream home, business, or investment property
             </p>
           </div>
         </div>

@@ -3,8 +3,8 @@ const KeyFeatures = () => {
   const features = [
     {
       icon: "🏠",
-      title: "4 Profitable Airbnb Units",
-      description: "Fully established rental operation with proven income potential"
+      title: "4 Flexible Units",
+      description: "Versatile property ready for vacation rentals, private residence, restaurant, or any vision you have"
     },
     {
       icon: "🌅",
@@ -13,8 +13,8 @@ const KeyFeatures = () => {
     },
     {
       icon: "🔑",
-      title: "Turnkey Operation",
-      description: "Ready-to-run business with all systems in place"
+      title: "Ready for Your Vision",
+      description: "Blank slate property prepared for whatever use you envision"
     },
     {
       icon: "🌉",

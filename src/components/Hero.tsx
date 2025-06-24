@@ -25,10 +25,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-3 md:px-4 max-w-6xl mx-auto pb-8">
         <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-3 md:mb-6 leading-tight">
-          Own a <span className="text-emerald-400">Turnkey Airbnb</span> Business in Costa Rican Paradise
+          Own a <span className="text-emerald-400">Versatile 4-Unit Property</span> in Costa Rican Paradise
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-2 md:mb-4 text-gray-200">
-          A 4-unit rental property with spectacular sunset and lakeview
+          A flexible property with spectacular sunset and lakeview - perfect for vacation rentals, private residence, or commercial use
         </p>
         <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-emerald-400">
           Asking Price: $499,000 USD
