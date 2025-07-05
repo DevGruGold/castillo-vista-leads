@@ -4,8 +4,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const ContactSection = () => {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -42,11 +44,10 @@ const ContactSection = () => {
       <div className="container mx-auto px-3 md:px-4">
         <div className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2 md:mb-4">
-            Contact Michael Copeland to Learn More
+            {t('contactTitle')}
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
-            Ready to take the next step? Get in touch to schedule a viewing or ask any questions 
-            about this exceptional investment opportunity.
+            {t('contactSubtitle')}
           </p>
         </div>
 
@@ -55,31 +56,31 @@ const ContactSection = () => {
           <div className="bg-green-50 rounded-xl md:rounded-2xl p-4 md:p-8 text-center">
             <div className="text-4xl md:text-6xl mb-3 md:mb-6">💬</div>
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 md:mb-4">
-              Fastest Response via WhatsApp
+              {t('fastestResponse')}
             </h3>
             <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-8 lg:text-lg">
-              Get instant answers to your questions and schedule a property viewing directly with Michael.
+              {t('whatsappDescription')}
             </p>
             <Button 
               onClick={handleWhatsAppClick}
               className="bg-green-500 hover:bg-green-600 text-white px-4 md:px-8 py-3 md:py-4 text-sm md:text-lg rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-xl w-full"
             >
-              💬 Click Here to Chat on WhatsApp
+              {t('clickToChat')}
             </Button>
             <p className="text-xs md:text-sm text-gray-500 mt-2 md:mt-4">
-              Message will be pre-filled with your inquiry details
+              {t('messagePrefilled')}
             </p>
           </div>
 
           {/* Contact Form */}
           <div className="bg-gray-50 rounded-xl md:rounded-2xl p-4 md:p-8">
             <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 md:mb-6">
-              Or Send an Email
+              {t('sendEmail')}
             </h3>
             <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  Your Name
+                  {t('yourName')}
                 </label>
                 <Input
                   type="text"
@@ -88,14 +89,14 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  placeholder="Enter your full name"
+                  placeholder={t('namePlaceholder')}
                   className="w-full"
                 />
               </div>
               
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  Email Address
+                  {t('emailAddress')}
                 </label>
                 <Input
                   type="email"
@@ -104,14 +105,14 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  placeholder="Enter your email address"
+                  placeholder={t('emailPlaceholder')}
                   className="w-full"
                 />
               </div>
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  Message
+                  {t('message')}
                 </label>
                 <Textarea
                   id="message"
@@ -119,7 +120,7 @@ const ContactSection = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   required
-                  placeholder="Tell us about your interest in the property..."
+                  placeholder={t('messagePlaceholder')}
                   rows={4}
                   className="w-full"
                 />
@@ -129,7 +130,7 @@ const ContactSection = () => {
                 type="submit"
                 className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2 md:py-3 rounded-lg font-semibold transition-all duration-300"
               >
-                Send Message
+                {t('sendMessage')}
               </Button>
             </form>
           </div>
@@ -139,7 +140,7 @@ const ContactSection = () => {
         <div className="mt-8 md:mt-16 text-center">
           <div className="bg-emerald-600 text-white rounded-xl md:rounded-2xl p-4 md:p-8 max-w-2xl mx-auto">
             <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Michael Copeland</h3>
-            <p className="text-sm md:text-base text-emerald-100 mb-2 md:mb-4">Property Owner & Investment Specialist</p>
+            <p className="text-sm md:text-base text-emerald-100 mb-2 md:mb-4">{t('propertyOwner')}</p>
             <div className="space-y-1 md:space-y-2">
               <p className="text-sm md:text-base text-emerald-100">📱 WhatsApp: +506 8709-0777</p>
               <p className="text-sm md:text-base text-emerald-100">📧 Email: xmrtsolutions@gmail.com</p>
