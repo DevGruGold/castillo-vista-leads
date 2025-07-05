@@ -56,10 +56,12 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [language, setLanguage] = useState<Language>('en');
 
   useEffect(() => {
-    // Detect user's language from browser
-    const browserLang = navigator.language.toLowerCase();
-    if (browserLang.startsWith('es')) {
-      setLanguage('es');
+    // Detect user's language from browser with proper type checking
+    if (typeof window !== 'undefined' && window.navigator) {
+      const browserLang = window.navigator.language.toLowerCase();
+      if (browserLang.startsWith('es')) {
+        setLanguage('es');
+      }
     }
   }, []);
 
