@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 type Language = 'en' | 'es';
@@ -100,6 +99,13 @@ const translations = {
     messagePlaceholder: "Tell us about your interest in the property...",
     sendMessage: "Send Message",
     propertyOwner: "Property Owner & Investment Specialist",
+    
+    // ROI Calculator
+    investmentCalculator: "💰 Investment Calculator",
+    occupancyRate: "Occupancy Rate (%)",
+    avgNightlyRate: "Avg Nightly Rate ($)",
+    annualIncome: "Annual Income",
+    roi: "ROI",
   },
   es: {
     // Hero section
@@ -189,6 +195,13 @@ const translations = {
     messagePlaceholder: "Cuéntanos sobre tu interés en la propiedad...",
     sendMessage: "Enviar Mensaje",
     propertyOwner: "Propietario e Especialista en Inversiones",
+    
+    // ROI Calculator
+    investmentCalculator: "💰 Calculadora de Inversión",
+    occupancyRate: "Tasa de Ocupación (%)",
+    avgNightlyRate: "Tarifa Promedio por Noche ($)",
+    annualIncome: "Ingresos Anuales",
+    roi: "ROI",
   }
 };
 
