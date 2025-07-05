@@ -1,8 +1,11 @@
 
 import { Button } from "@/components/ui/button";
 import ROICalculator from "./ROICalculator";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Hero = () => {
+  const { t } = useLanguage();
+  
   const handleWhatsAppClick = () => {
     const phoneNumber = "+50687090777";
     const message = "Hello Michael, I'm inquiring about the 4-unit property in El Castillo for $499,000.";
@@ -25,13 +28,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-3 md:px-4 max-w-6xl mx-auto pb-8">
         <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-3 md:mb-6 leading-tight">
-          Own a <span className="text-emerald-400">Versatile 4-Unit Property</span> in Costa Rican Paradise
+          {t('heroTitle')}
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-2 md:mb-4 text-gray-200">
-          A flexible property with spectacular sunset and lakeview - perfect for vacation rentals, private residence, or commercial use
+          {t('heroSubtitle')}
         </p>
         <p className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-emerald-400">
-          Asking Price: $499,000 USD
+          {t('heroPrice')}
         </p>
 
         {/* ROI Calculator */}
@@ -43,7 +46,7 @@ const Hero = () => {
           onClick={handleWhatsAppClick}
           className="bg-green-500 hover:bg-green-600 text-white px-6 md:px-8 py-3 md:py-4 text-base md:text-lg rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-2xl relative z-20"
         >
-          💬 Inquire on WhatsApp
+          {t('heroButton')}
         </Button>
       </div>
     </section>

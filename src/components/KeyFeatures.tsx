@@ -1,25 +1,29 @@
 
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const KeyFeatures = () => {
+  const { t } = useLanguage();
+  
   const features = [
     {
       icon: "🏠",
-      title: "4 Flexible Units",
-      description: "Versatile property ready for vacation rentals, private residence, restaurant, or any vision you have"
+      title: t('feature1Title'),
+      description: t('feature1Description')
     },
     {
       icon: "🌅",
-      title: "Spectacular Sunset & Lakeview",
-      description: "Breathtaking views of stunning sunsets over Lake Arenal"
+      title: t('feature2Title'),
+      description: t('feature2Description')
     },
     {
       icon: "🔑",
-      title: "Ready for Your Vision",
-      description: "Blank slate property prepared for whatever use you envision"
+      title: t('feature3Title'),
+      description: t('feature3Description')
     },
     {
       icon: "🌉",
-      title: "Strategic Future Location",
-      description: "New bridge will create faster route to Monteverde & beaches, increasing tourist traffic"
+      title: t('feature4Title'),
+      description: t('feature4Description')
     }
   ];
 
@@ -28,10 +32,10 @@ const KeyFeatures = () => {
       <div className="container mx-auto px-3 md:px-4">
         <div className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2 md:mb-4">
-            Why This Property?
+            {t('keyFeaturesTitle')}
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-2">
-            A rare opportunity to own a profitable vacation rental business in paradise
+            {t('keyFeaturesSubtitle')}
           </p>
         </div>
         
