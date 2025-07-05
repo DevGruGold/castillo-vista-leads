@@ -1,19 +1,9 @@
 
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const ContactSection = () => {
   const { t } = useLanguage();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-  const { toast } = useToast();
 
   const handleWhatsAppClick = () => {
     const phoneNumber = "+50687090777";
@@ -22,21 +12,8 @@ const ContactSection = () => {
     window.open(whatsappUrl, '_blank');
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, you would send this data to a server
-    toast({
-      title: "Message Sent!",
-      description: "Michael will get back to you within 24 hours.",
-    });
-    setFormData({ name: '', email: '', message: '' });
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:xmrtsolutions@gmail.com';
   };
 
   return (
@@ -51,99 +28,44 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 max-w-6xl mx-auto">
-          {/* WhatsApp CTA */}
-          <div className="bg-green-50 rounded-xl md:rounded-2xl p-4 md:p-8 text-center">
-            <div className="text-4xl md:text-6xl mb-3 md:mb-6">💬</div>
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 md:mb-4">
+        {/* WhatsApp CTA - Now Full Width */}
+        <div className="max-w-2xl mx-auto mb-8 md:mb-16">
+          <div className="bg-green-50 rounded-xl md:rounded-2xl p-6 md:p-12 text-center">
+            <div className="text-6xl md:text-8xl mb-4 md:mb-8">💬</div>
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-6">
               {t('fastestResponse')}
             </h3>
-            <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-8 lg:text-lg">
+            <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-10 lg:text-xl">
               {t('whatsappDescription')}
             </p>
             <Button 
               onClick={handleWhatsAppClick}
-              className="bg-green-500 hover:bg-green-600 text-white px-4 md:px-8 py-3 md:py-4 text-sm md:text-lg rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-xl w-full"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-xl w-full max-w-md"
             >
               {t('clickToChat')}
             </Button>
-            <p className="text-xs md:text-sm text-gray-500 mt-2 md:mt-4">
+            <p className="text-sm md:text-base text-gray-500 mt-3 md:mt-6">
               {t('messagePrefilled')}
             </p>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-gray-50 rounded-xl md:rounded-2xl p-4 md:p-8">
-            <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 md:mb-6">
-              {t('sendEmail')}
-            </h3>
-            <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  {t('yourName')}
-                </label>
-                <Input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleInputChange}
-                  required
-                  placeholder={t('namePlaceholder')}
-                  className="w-full"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  {t('emailAddress')}
-                </label>
-                <Input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  required
-                  placeholder={t('emailPlaceholder')}
-                  className="w-full"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1 md:mb-2">
-                  {t('message')}
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  required
-                  placeholder={t('messagePlaceholder')}
-                  rows={4}
-                  className="w-full"
-                />
-              </div>
-              
-              <Button 
-                type="submit"
-                className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2 md:py-3 rounded-lg font-semibold transition-all duration-300"
-              >
-                {t('sendMessage')}
-              </Button>
-            </form>
           </div>
         </div>
 
         {/* Contact Info */}
-        <div className="mt-8 md:mt-16 text-center">
+        <div className="text-center">
           <div className="bg-emerald-600 text-white rounded-xl md:rounded-2xl p-4 md:p-8 max-w-2xl mx-auto">
             <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Michael Copeland</h3>
             <p className="text-sm md:text-base text-emerald-100 mb-2 md:mb-4">{t('propertyOwner')}</p>
             <div className="space-y-1 md:space-y-2">
               <p className="text-sm md:text-base text-emerald-100">📱 WhatsApp: +506 8709-0777</p>
-              <p className="text-sm md:text-base text-emerald-100">📧 Email: xmrtsolutions@gmail.com</p>
+              <p className="text-sm md:text-base text-emerald-100">
+                📧 Email: 
+                <button 
+                  onClick={handleEmailClick}
+                  className="text-emerald-200 hover:text-white underline ml-1 transition-colors"
+                >
+                  xmrtsolutions@gmail.com
+                </button>
+              </p>
               <p className="text-sm md:text-base text-emerald-100">📍 El Castillo, Costa Rica</p>
             </div>
           </div>
