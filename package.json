@@ -78,7 +78,7 @@
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.20"
   },
   "description": "Lead generation and property showcase website for Castillo Vista luxury real estate development in Costa Rica",
   "author": "Epic Adventures Costa Rica",
